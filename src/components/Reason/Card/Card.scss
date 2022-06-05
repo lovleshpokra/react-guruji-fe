@@ -1,0 +1,27 @@
+.reason-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 0 0 50%;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+    &__image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    &__content {
+        margin-left: 36px;
+
+        &--title {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &--description {
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+}

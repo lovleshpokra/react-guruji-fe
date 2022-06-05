@@ -1,0 +1,22 @@
+.rights-card {
+    flex: 0 0 33%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    &__image img {
+        width: 134px;
+        height: 134px;
+    }
+
+    &__content {
+        padding: 20px 0;
+
+        &--title {
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+}

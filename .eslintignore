@@ -1,0 +1,11 @@
+.blueprints
+build
+config
+scripts
+craco*
+src/**/*Data.ts
+src/**/*Data.js
+src/**/*Data.view.js
+src/**/*Data.view.ts
+src/Interfaces
+meta
